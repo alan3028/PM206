@@ -1,7 +1,7 @@
 import { Button } from "react-native";
 
-export const Saludo = () => {
+export const Saludo= () =>{
     return(
-        <Button title="¡Hola S206!"></Button>
+        <Button title="Hello 206"></Button>
     )
-};
+}
