@@ -6,27 +6,27 @@ import React, { useState } from "react";
 /* Zona 2: Main - Hogar de los componentes */
 export default function FlatListScreen() {
     const[elementos, setElementos] = useState([
-        {id: "1", nombre: "Daniela Lisset Elizalde Ortiz"}, 
-        {id: "2", nombre: "Isaac Abdiel Sánchez López"}, 
-        {id: "3", nombre: "Ian David Rodríguez Ruiz"}, 
+        {id: "1", nombre: "judith maqueda"}, 
+        {id: "2", nombre: "Sántiago de vicente alan"}, 
+        {id: "3", nombre: "cecilia camacho"}, 
         {id: "4", nombre: "Alan David Santiago de Vicente"}, 
         {id: "5", nombre: "Rafael de Jesús Reyes Chávez"}, 
-        {id: "6", nombre: "Gabriela Martínez Cruz"}, 
-        {id: "7", nombre: "Axel Gabriel Ramírez Ortiz"}, 
-        {id: "8", nombre: "Diego Aarón Sámano Hernández"},
+        {id: "6", nombre: "ana karen botello"}, 
+        {id: "7", nombre: "paloma del carmen gonzalez"}, 
+        {id: "8", nombre: "estefania "},
     ]);
     const[secciones, setSecciones] = useState([
         {
             titulo: "Videojuegos", 
-            data: ["COD Mobile", "Halo", "Skullgirls"]
+            data: ["COD Mobile", "GTA", "FRE", "Minecraft"]
         }, 
         {
             titulo: "Refrescos", 
-            data: ["Pepsi", "Cocacola", "Delaware punch"]
+            data: ["Pepsi", "Cocacola", "Fanta", "Sprite"]
         }, 
         {
-            titulo: "Gays", 
-            data: ["Ian", "Ian", "Ian"]
+            titulo: "amigos", 
+            data: ["alan", "judith", "santi"]
         }, 
         {
             titulo: "Frituras", 
@@ -37,8 +37,8 @@ export default function FlatListScreen() {
             data: ["Sandía", "Guayaba", "Naranja"]
         }, 
         {
-            titulo: "Sexys", 
-            data: ["Rafa", "Rafa", "Rafa"]
+            titulo: "mejores", 
+            data: ["Rafa", "isaac", "santi"]
         },
     ]);
 
